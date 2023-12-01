@@ -8,12 +8,10 @@ const Hero = () => {
         alt=""
       />
       <div className="absolute top-28 left-60 z-20 tracking-widest">
-        <h1 className="text-[80px] font-bold ml-36 leading-[70px]">
-          Next Level
-        </h1>
-        <h1 className="text-[80px] font-bold leading-[100px]">Amazing</h1>
+        <h1 className="text-[80px] font-bold ml-36 leading-[70px]">Frame.</h1>
+        <h1 className="text-[80px] font-bold leading-[100px]">Capture.</h1>
         <h1 className="text-[80px] font-bold ml-36 leading-[100px]">
-          Videograper
+          Inspire.
         </h1>
 
         <button className="ml-36 text-[18px] px-5 py-4 bg-[#FFA33E] rounded-[100px] mt-8">
