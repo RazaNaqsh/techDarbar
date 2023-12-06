@@ -109,13 +109,13 @@ const Navbar = () => {
         </div>
         {/* Mobile menu options (hidden by default) */}
         {mobileMenuOpen && (
-          <ul className="bg-white flex flex-col rounded-[10px] px-10 mr-8 md:hidden text-[19px] font-sans gap-4 p-4 absolute right-0 top-16">
+          <ul className="z-[200] bg-white flex flex-col rounded-[10px] px-10 mr-8 md:hidden text-[19px] font-sans gap-4 p-4 absolute right-0 top-16">
             <Link to="/">
               <li
                 className={`cursor-pointer ${
                   activeTab === "home"
                     ? "text-[#4F0968] font-medium"
-                    : "text-gray-300"
+                    : "text-gray-800"
                 }`}
                 onClick={() => {
                   handleTabClick("home");
@@ -130,7 +130,7 @@ const Navbar = () => {
                 className={`cursor-pointer ${
                   activeTab === "about"
                     ? "text-[#4F0968] font-medium"
-                    : "text-gray-300"
+                    : "text-gray-800"
                 }`}
                 onClick={() => {
                   handleTabClick("about");
@@ -145,7 +145,7 @@ const Navbar = () => {
                 className={`cursor-pointer ${
                   activeTab === "gallery"
                     ? "text-[#4F0968] font-medium"
-                    : "text-gray-300"
+                    : "text-gray-800"
                 }`}
                 onClick={() => {
                   handleTabClick("gallery");
@@ -160,7 +160,7 @@ const Navbar = () => {
                 className={`cursor-pointer ${
                   activeTab === "career"
                     ? "text-[#4F0968] font-medium"
-                    : "text-gray-300"
+                    : "text-gray-800"
                 }`}
                 onClick={() => {
                   handleTabClick("career");
