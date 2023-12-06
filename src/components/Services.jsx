@@ -6,11 +6,11 @@ const Services = () => {
   return (
     <section className="text-white py-28">
       <div className="space-y-2">
-        <h1 className="text-[44px] font-semibold text-center">
+        <h1 className="text-[30px] md:text-[44px] font-semibold text-center">
           Filming Services
         </h1>
         <hr className="mx-auto w-[100px] border-2 border-red-500" />
-        <p className="text-center text-[17px] w-[80vw] md:w-[45vw] mx-auto text-[#8F8F8F]">
+        <p className="text-center text-[14px] md:text-[17px] w-[80vw] md:w-[45vw] mx-auto text-[#8F8F8F]">
           I offer different services such as filming services, Serviceshop &
           private tuition, equipment hire. If you have any question, don't
           hesitate to contact me.
@@ -24,7 +24,7 @@ const Services = () => {
             alt=""
           />
           <h2>Video Editing</h2>
-          <p className="text-center text-[#8F8F8F]">
+          <p className="text-center text-[14px] md:text-[17px] text-[#8F8F8F]">
             I can film your project whether it is a commercial advertise, a
             short film or a document film. I have expertise in these fields.
           </p>
@@ -36,7 +36,7 @@ const Services = () => {
             alt=""
           />
           <h2>Cameraman</h2>
-          <p className="text-center text-[#8F8F8F]">
+          <p className="text-center text-[14px] md:text-[17px] text-[#8F8F8F]">
             I can film your project whether it is a commercial advertise, a
             short film or a document film. I have expertise in these fields.
           </p>
@@ -48,7 +48,7 @@ const Services = () => {
             alt=""
           />
           <h2>Filming Services</h2>
-          <p className="text-center text-[#8F8F8F]">
+          <p className="text-center text-[14px] md:text-[17px] text-[#8F8F8F]">
             I can film your project whether it is a commercial advertise, a
             short film or a document film. I have expertise in these fields.
           </p>

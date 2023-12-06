@@ -4,10 +4,10 @@ const Hero = () => {
     <div className="pt-12 relative">
       <img
         src={hero}
-        className="z-0 opacity-75 ml-auto mr-[15vw] h-[75vh]"
+        className="z-0 opacity-75 ml-auto mr-[15vw] md:h-[75vh]"
         alt=""
       />
-      <div className="absolute top-28 left-60 z-20 tracking-widest">
+      <div className="hidden md:block absolute top-28 left-60 z-20 tracking-widest">
         <h1 className="text-[80px] font-bold ml-36 leading-[70px]">Frame.</h1>
         <h1 className="text-[80px] font-bold leading-[100px]">Capture.</h1>
         <h1 className="text-[80px] font-bold ml-36 leading-[100px]">

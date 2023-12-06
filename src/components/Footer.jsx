@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="w-[80%] mx-auto flex justify-around">
         <div className="space-y-4">
           <img src={logo} className="w-[150px]" alt="" />
-          <p className=" text-[17px] w-[30vw]  text-[#8F8F8F]">
+          <p className=" text-[17px] w-[70vw] md:w-[30vw]  text-[#8F8F8F]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
             doloribus ad amet dolor, fugiat praesentium
           </p>
@@ -26,7 +26,7 @@ const Footer = () => {
             <img src={tw} alt="" />
           </div>
         </div>
-        <div>
+        <div className="hidden md:block ">
           <h2 className="text-[26px] mb-4 font-semibold">Get In Touch</h2>
           <div className="flex gap-10">
             <section className="space-y-2">
