@@ -11,9 +11,10 @@ const Services = () => {
         </h1>
         <hr className="mx-auto w-[100px] border-2 border-red-500" />
         <p className="text-justify md:text-center text-[14px] md:text-[17px] w-[80vw] md:w-[45vw] mx-auto text-[#8F8F8F]">
-          I offer different services such as filming services, Serviceshop &
-          private tuition, equipment hire. If you have any question, don't
-          hesitate to contact me.
+          I provide a range of creative services including video editing,
+          wedding filming, and camerawork. From crafting compelling stories to
+          capturing special moments, feel free to reach out with any inquiries
+          or questions.
         </p>
       </div>
       <div className="flex flex-col md:flex-row items-center gap-12 md:gap-0 justify-around w-[90%] mx-auto mt-10">

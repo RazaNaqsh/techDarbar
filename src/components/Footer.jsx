@@ -32,22 +32,29 @@ const Footer = () => {
             <section className="space-y-2">
               <div className="flex gap-2 items-center">
                 <img src={location} className="inline w-[30px]" alt="" />
-                <p className="text-[#8F8F8F]">2443 Oak Ridge Omaha, QA 45065</p>
+                <p className="text-[#8F8F8F]">
+                  GS Road, Jugsalai, Jamshedpur- 831006
+                </p>
               </div>
               <div className="flex gap-2 items-center">
                 <img src={mail} className="inline w-[30px]" alt="" />
-                <p className="text-[#8F8F8F]">@techdarbar</p>
+                <a
+                  href="mailto:techdarbarjsr@gmail.com"
+                  className="text-[#8F8F8F]"
+                >
+                  techdarbarjsr@gmail.com
+                </a>
               </div>
             </section>
 
             <section className="space-y-2">
               <div className="flex gap-2 items-center">
                 <img src={phone} className="inline w-[30px]" alt="" />
-                <p className="text-[#8F8F8F]">00000 00000</p>
+                <p className="text-[#8F8F8F]">+91 72928 71069</p>
               </div>
               <div className="flex gap-2 items-center">
                 <img src={whatsapp} className="inline w-[30px]" alt="" />
-                <p className="text-[#8F8F8F]">000-000-0000</p>
+                <p className="text-[#8F8F8F]">+91 72928 71069</p>
               </div>
             </section>
           </div>
