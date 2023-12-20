@@ -3,6 +3,7 @@ import hero from "../assets/hero.jpeg";
 const Hero = () => {
   return (
     <>
+      {/* for desktop */}
       <div className="hidden md:block pt-12 relative">
         <img
           src={hero}
@@ -21,7 +22,9 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="block md:hidden relative h-screen">
+
+      {/* for mobile */}
+      <div className="block md:hidden relative h-[90vh]">
         <img
           src={hero}
           className="absolute inset-0 w-full h-full object-cover z-0 opacity-75"
