@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hidden md:block pt-12 relative">
         <img
           src={hero}
-          className="z-0 opacity-75 ml-auto mr-[10vw] md:h-[75vh]"
+          className="z-0 opacity-75 ml-auto object-cover mr-[10vw] md:h-[75vh]"
           alt=""
         />
         <div className="hidden md:block absolute top-28 left-60 z-20 tracking-widest">
