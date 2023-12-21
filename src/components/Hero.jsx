@@ -34,10 +34,17 @@ const Hero = () => {
           alt=""
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20 tracking-widest text-white">
-          <h1 className="text-6xl font-bold leading-tight mb-4">Frame.</h1>
-          <h1 className="text-6xl font-bold leading-tight mb-4">Capture.</h1>
-          <h1 className="text-6xl font-bold leading-tight mb-8">Inspire.</h1>
-          <button className="text-lg px-5 py-3 bg-[#FFA33E] rounded-full">
+          <h1 className="text-[40px] font-bold leading-[30px] mb-4 shadow-black shadow-md">
+            Zafar.Imam
+          </h1>
+          <h1 className="text-[18px] font-bold leading-[20px] mb-2 shadow-black shadow-md">
+            Telling Stories..
+          </h1>
+          <h1 className="text-[14px] font-bold leading-tight mb-8 shadow-black shadow-md">
+            {" "}
+            Cinematographer, VideoEditor & Photographer.
+          </h1>
+          <button className="text-[16px] font-semibold px-4 py-3 bg-[#FFA33E] rounded-full">
             Learn More
           </button>
         </div>
