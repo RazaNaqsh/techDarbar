@@ -1,7 +1,7 @@
 import about from "../assets/about.jpg";
 const AboutUs = () => {
   return (
-    <div className="py-20 flex flex-col md:flex-row items-center w-[85%] mx-auto gap-20">
+    <div className="bg-[#001019] my-20 flex flex-col md:flex-row items-center w-[90%] mx-auto gap-20">
       <img src={about} className="w-[80vw] md:w-[40vw]" alt="" />
       <div>
         <h3>About Us</h3>

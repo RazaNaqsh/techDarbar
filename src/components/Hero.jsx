@@ -7,17 +7,20 @@ const Hero = () => {
       <div className="hidden md:block pt-12 relative">
         <img
           src={hero}
-          className="z-0 opacity-75 ml-auto mr-[15vw] md:h-[75vh]"
+          className="z-0 opacity-75 ml-auto mr-[10vw] md:h-[75vh]"
           alt=""
         />
         <div className="hidden md:block absolute top-28 left-60 z-20 tracking-widest">
-          <h1 className="text-[80px] font-bold ml-36 leading-[70px]">Frame.</h1>
-          <h1 className="text-[80px] font-bold leading-[100px]">Capture.</h1>
-          <h1 className="text-[80px] font-bold ml-36 leading-[100px]">
-            Inspire.
+          {/* ml36 Frame Capture Inspire */}
+          <h1 className="text-[80px] font-bold leading-[70px]">Zafar Imam</h1>
+          <h1 className="text-[40px] font-bold leading-[80px]">
+            Telling Stories..
+          </h1>
+          <h1 className="text-[20px] font-bold leading-[10px]">
+            Cinematographer, Video Editor & Photographer
           </h1>
 
-          <button className="ml-36 text-[18px] px-5 py-4 bg-[#FFA33E] rounded-[100px] mt-8">
+          <button className=" text-[18px] px-5 py-4 bg-[#FFA33E] rounded-[100px] mt-8">
             Learn More
           </button>
         </div>
