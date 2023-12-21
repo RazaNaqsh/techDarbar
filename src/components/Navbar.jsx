@@ -27,12 +27,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-[100] bg-[#010207]  w-full">
+    <nav className="z-[100] bg-[#010207] w-full">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1.3 }}
-        className="z-10  w-[90%] mx-auto flex px-4 py-6 justify-between items-center"
+        className="z-10  w-[85%] mx-auto flex px-4 py-6 justify-between items-center"
       >
         <div>
           <img className="w-[65px] md:w-[100px]" src={logo} alt="logo" />
@@ -47,7 +47,7 @@ const Navbar = () => {
         <div className="hidden md:flex">
           {" "}
           {/* Displayed on desktop */}
-          <ul className="flex text-[19px] font-sans md:gap-6 big:gap-20">
+          <ul className="flex text-[19px] font-sans md:gap-6 big:gap-24">
             <Link to="/" className="" onClick={() => handleTabClick("home")}>
               <li
                 className={`cursor-pointer ${
@@ -87,22 +87,6 @@ const Navbar = () => {
                 }`}
               >
                 Gallery
-              </li>
-            </Link>
-
-            <Link
-              to="/career"
-              className=""
-              onClick={() => handleTabClick("career")}
-            >
-              <li
-                className={`cursor-pointer ${
-                  activeTab === "career"
-                    ? "text-white font-medium"
-                    : "text-gray-300"
-                }`}
-              >
-                Career
               </li>
             </Link>
           </ul>
@@ -155,28 +139,8 @@ const Navbar = () => {
                 Gallery
               </li>
             </Link>
-            <Link to="/career">
-              <li
-                className={`cursor-pointer ${
-                  activeTab === "career"
-                    ? "text-[#4F0968] font-medium"
-                    : "text-gray-800"
-                }`}
-                onClick={() => {
-                  handleTabClick("career");
-                  handleMobileMenuToggle();
-                }}
-              >
-                Career
-              </li>
-            </Link>
           </ul>
         )}
-        <div className="hidden md:block">
-          <button className="bg-[#4F0968] border-[1px] border-white text-white rounded-[5px] font-sans w-[146px] h-[41px] text-[18px] shadow-black shadow-sm">
-            Contact Us
-          </button>
-        </div>
       </motion.div>
     </nav>
   );
