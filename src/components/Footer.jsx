@@ -15,11 +15,11 @@ const Footer = () => {
       <div className="w-[80%] mx-auto flex justify-around">
         <div className="space-y-4">
           <img src={logo} className="w-[150px]" alt="" />
-          <p className=" text-[17px] w-[70vw] md:w-[30vw]  text-[#8F8F8F]">
+          <p className="text-[13px] md:text-[17px] w-[70vw] md:w-[30vw]  text-[#8F8F8F]">
             The world without photography will be meaningless to us if there is
             no light and color, which opens up our minds and expresses passion.
           </p>
-          <div className="w-[230px] h-[50px] ml-6 flex gap-4 ">
+          <div className="w-[230px] h-[50px] md:ml-6 flex gap-4 ">
             <img src={fb} alt="" />
             <img src={ig} alt="" />
             <img src={yt} alt="" />
