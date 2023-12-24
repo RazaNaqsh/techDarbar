@@ -2,7 +2,7 @@ import fb from "../assets/fb.svg";
 import ig from "../assets/ig.svg";
 import yt from "../assets/yt.svg";
 import tw from "../assets/tw.svg";
-import logo from "../assets/logo.png";
+import newlogo from "../assets/newlogo.png";
 
 import location from "../assets/location.svg";
 import phone from "../assets/phone.svg";
@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="bg-[#202020] py-28">
       <div className="w-[80%] mx-auto flex justify-around">
         <div className="space-y-4">
-          <img src={logo} className="w-[150px]" alt="" />
+          <img src={newlogo} className="w-[150px]" alt="" />
           <p className="text-[13px] md:text-[17px] w-[70vw] md:w-[30vw]  text-[#8F8F8F]">
             The world without photography will be meaningless to us if there is
             no light and color, which opens up our minds and expresses passion.

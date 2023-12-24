@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../assets/logo.png";
+import newlogo from "../assets/newlogo.png";
 import burgerIcon from "../assets/burger.svg"; // Add a burger icon
 
 import { motion } from "framer-motion";
@@ -35,7 +35,7 @@ const Navbar = () => {
         className="z-10  w-[85%] mx-auto flex px-4 py-6 justify-between items-center"
       >
         <div>
-          <img className="w-[65px] md:w-[100px]" src={logo} alt="logo" />
+          <img className="w-[65px] md:w-[100px]" src={newlogo} alt="logo" />
         </div>
         {/* Mobile menu burger icon */}
         <div
