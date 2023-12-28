@@ -13,6 +13,10 @@ export default {
         lg: "1240px", // Large screens (customize this)
         xl: "1380px", // Extra-large screens
       },
+      fontFamily: {
+        cinzel: ["Cinzel", "serif"],
+        kalnia: ["Kalnia", "serif"],
+      },
     },
   },
   plugins: [],

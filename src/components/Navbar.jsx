@@ -27,15 +27,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-[100] bg-[#010207] w-full">
+    <nav className="z-[100] absolute  w-full">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1.3 }}
-        className="z-10  w-[85%] mx-auto flex px-4 py-6 justify-between items-center"
+        className="z-10 w-[95%] mx-auto flex px-4 py-6 justify-between items-center"
       >
         <div>
-          <img className="w-[65px] md:w-[100px]" src={newlogo} alt="logo" />
+          <h1 className="font-cinzel text-white text-[24px] sm:text-[30px]  big:text-[50px]">
+            TECH DARBAR
+          </h1>
+          {/* <img className="w-[65px] md:w-[100px]" src={newlogo} alt="logo" /> */}
         </div>
         {/* Mobile menu burger icon */}
         <div
@@ -47,7 +50,7 @@ const Navbar = () => {
         <div className="hidden md:flex">
           {" "}
           {/* Displayed on desktop */}
-          <ul className="flex text-[19px] font-sans md:gap-6 big:gap-24">
+          <ul className="font-cinzel flex text-[19px] md:gap-6 big:gap-24">
             <Link to="/" className="" onClick={() => handleTabClick("home")}>
               <li
                 className={`cursor-pointer ${
@@ -57,21 +60,6 @@ const Navbar = () => {
                 }`}
               >
                 Home
-              </li>
-            </Link>
-            <Link
-              to="/about"
-              className=""
-              onClick={() => handleTabClick("about")}
-            >
-              <li
-                className={`cursor-pointer ${
-                  activeTab === "about"
-                    ? "text-white font-medium"
-                    : "text-gray-300"
-                }`}
-              >
-                About
               </li>
             </Link>
             <Link
@@ -89,11 +77,26 @@ const Navbar = () => {
                 Gallery
               </li>
             </Link>
+            <Link
+              to="/contact"
+              className=""
+              onClick={() => handleTabClick("contact")}
+            >
+              <li
+                className={`cursor-pointer ${
+                  activeTab === "contact"
+                    ? "text-white font-medium"
+                    : "text-gray-300"
+                }`}
+              >
+                Contact
+              </li>
+            </Link>
           </ul>
         </div>
         {/* Mobile menu options (hidden by default) */}
         {mobileMenuOpen && (
-          <ul className="z-[200] bg-white flex flex-col rounded-[10px] px-10 mr-8 md:hidden text-[19px] font-sans gap-4 p-4 absolute right-0 top-16">
+          <ul className="z-[200] bg-white flex flex-col rounded-[10px] px-10 mr-8 md:hidden text-[19px] font-cinzel gap-4 p-4 absolute right-0 top-16">
             <Link to="/">
               <li
                 className={`cursor-pointer ${
@@ -109,21 +112,6 @@ const Navbar = () => {
                 Home
               </li>
             </Link>
-            <Link to="/about">
-              <li
-                className={`cursor-pointer ${
-                  activeTab === "about"
-                    ? "text-[#4F0968] font-medium"
-                    : "text-gray-800"
-                }`}
-                onClick={() => {
-                  handleTabClick("about");
-                  handleMobileMenuToggle();
-                }}
-              >
-                About
-              </li>
-            </Link>
             <Link to="/gallery">
               <li
                 className={`cursor-pointer ${
@@ -137,6 +125,21 @@ const Navbar = () => {
                 }}
               >
                 Gallery
+              </li>
+            </Link>
+            <Link to="/contact">
+              <li
+                className={`cursor-pointer ${
+                  activeTab === "contact"
+                    ? "text-[#4F0968] font-medium"
+                    : "text-gray-800"
+                }`}
+                onClick={() => {
+                  handleTabClick("contact");
+                  handleMobileMenuToggle();
+                }}
+              >
+                Contact
               </li>
             </Link>
           </ul>

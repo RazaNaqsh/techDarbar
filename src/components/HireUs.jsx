@@ -1,7 +1,7 @@
 import camrera from "../assets/camera.jpg";
 const HireUs = () => {
   return (
-    <section className="relative pt-10 pb-32">
+    <section className="font-kalnia relative pt-10 pb-32">
       {/* <img
         src={camrera}
         className="h-[80vh] w-[90vw] opacity-80 object-cover mx-auto"

@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Hero2 from "../components/Hero2";
 import Services from "../components/Services";
 import AboutUs from "../components/AboutUs";
 import Footer from "../components/Footer";
@@ -7,8 +7,8 @@ import HireUs from "../components/HireUs";
 
 const Home = () => {
   return (
-    <div className="bg-[#010207] text-white">
-      <Hero />
+    <div className="bg-[#100F0F] text-white">
+      <Hero2 />
       <Services />
       <AboutUs />
       <HireUs />
