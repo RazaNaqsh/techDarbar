@@ -2,11 +2,11 @@ import hero from "../assets/herocinematicCompressed.jpg";
 
 const Hero2 = () => {
   return (
-    <div className="relative h-[100vh] w-[100vw]">
-      <aside className="z-0 absolute top-0 left-0 h-[100vh] w-full">
+    <div className="relative h-[100vh] overflow-x-hidden w-[100vw]">
+      <aside className="z-0 absolute top-0 left-0 h-[100vh] w-[100vw] ">
         <img
           src={hero}
-          className="h-[100vh] opacity-70 w-full object-cover"
+          className="h-[100vh] opacity-70 w-[100vw] object-cover"
           alt=""
         />
       </aside>

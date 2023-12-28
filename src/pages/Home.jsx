@@ -7,7 +7,7 @@ import HireUs from "../components/HireUs";
 
 const Home = () => {
   return (
-    <div className="bg-[#100F0F] text-white">
+    <div className="bg-[#100F0F] overflow-x-hidden text-white">
       <Hero2 />
       <Services />
       <AboutUs />
