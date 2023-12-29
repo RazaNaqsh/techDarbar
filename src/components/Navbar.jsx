@@ -56,7 +56,7 @@ const Navbar = () => {
                 className={`cursor-pointer ${
                   activeTab === "home"
                     ? "text-white font-medium"
-                    : "text-gray-300"
+                    : "text-gray-200"
                 }`}
               >
                 Home
@@ -71,7 +71,7 @@ const Navbar = () => {
                 className={`cursor-pointer ${
                   activeTab === "gallery"
                     ? "text-white font-medium"
-                    : "text-gray-300"
+                    : "text-gray-200"
                 }`}
               >
                 Gallery
@@ -86,7 +86,7 @@ const Navbar = () => {
                 className={`cursor-pointer ${
                   activeTab === "contact"
                     ? "text-white font-medium"
-                    : "text-gray-300"
+                    : "text-gray-200"
                 }`}
               >
                 Contact
