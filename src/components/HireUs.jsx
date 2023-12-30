@@ -1,21 +1,25 @@
-import camrera from "../assets/camera.jpg";
+import trees from "../assets/trees.gif";
+import { Link } from "react-router-dom";
+
 const HireUs = () => {
   return (
     <section className="font-kalnia relative pt-10 pb-32">
-      {/* <img
-        src={camrera}
-        className="h-[80vh] w-[90vw] opacity-80 object-cover mx-auto"
+      <img
+        src={trees}
+        className="z-[-100] h-[80vh] w-[90vw] opacity-60 object-cover mx-auto"
         alt=""
-      /> */}
-      <div className="bg-[url(assets/camera.jpg)] w-[90vw] h-[550px] bg-center mx-auto relative bg-opacity-60">
-        <div className="z-[100] text-center flex flex-col h-full justify-center items-center">
+      />
+      <div className="h-full w-full flex justify-center text-white items-center">
+        <div className="absolute z-[100] text-center  h-full justify-center items-center px-4">
           <h3 className="text-[18px] ">Hire Us</h3>
-          <h1 className="text-[28px] sm:text-[36px] md:text-[50px]">
+          <h1 className="text-[22px] sm:text-[36px] md:text-[50px]">
             We Are Always Ready To <br /> Take A Perfect Shot
           </h1>
-          <button className=" text-[18px] w-fit px-5 py-4 bg-[#FFA33E] rounded-[100px] mt-8">
-            Learn More
-          </button>
+          <Link to="/contact">
+            <button className="text-[15px] md:text-[18px] w-fit px-3 md:px-5 py-2 md:py-4 bg-[#FFA33E] rounded-[100px] mt-4 md:mt-8">
+              Learn More
+            </button>
+          </Link>
         </div>
       </div>
     </section>
