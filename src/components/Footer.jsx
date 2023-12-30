@@ -27,7 +27,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="hidden md:block ">
-          <h2 className="text-[26px] mb-4 font-semibold">Get In Touch</h2>
+          <h2 className="text-[26px] mb-4 text-white font-semibold">
+            Get In Touch
+          </h2>
           <div className="flex gap-10">
             <section className="space-y-2">
               <div className="flex gap-2 items-center">
