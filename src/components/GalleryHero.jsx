@@ -12,7 +12,7 @@ const GalleryHero = () => {
       <div className="z-50">
         <div className="absolute h-screen w-screen flex justify-center items-center">
           <div className="-mt-20 text-center text-white font-kalnia">
-            <h2 className="text-[14px] sm:text-[18px] md:text-[30px]">
+            <h2 className="max-w-[90vw] mx-auto text-[16px] sm:text-[20px] md:text-[32px] ">
               What if your wedding film wasn't just a <br />
               collection of snippets from the day
             </h2>

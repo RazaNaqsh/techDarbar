@@ -12,10 +12,10 @@ const ContactHero = () => {
       <div className="z-50">
         <div className="absolute h-screen w-screen flex justify-center items-center">
           <div className="-mt-20 text-center text-white font-kalnia">
-            <h2 className="text-[14px] sm:text-[18px] md:text-[32px] ">
+            <h2 className="max-w-[85vw] mx-auto text-[18px] sm:text-[20px] md:text-[32px] ">
               It's time to tell your greatest story
             </h2>
-            <h3 className="mx-auto mt-5 text-[13px] sm:text-[16px] md:text-[18px] w-[80vw] md:w-[700px] ">
+            <h3 className="mx-auto mt-5 text-[14px] sm:text-[16px] md:text-[18px] w-[85vw] md:w-[700px] ">
               READY TO START COLLABORATING ON SHOWCASING THIS CHAPTER?
             </h3>
           </div>

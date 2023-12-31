@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
         {/* Mobile menu options (hidden by default) */}
         {mobileMenuOpen && (
-          <ul className="z-[200] bg-white flex flex-col rounded-[10px] px-10 mr-8 md:hidden text-[19px] font-cinzel gap-4 p-4 absolute right-0 top-16">
+          <ul className="z-[200] bg-white flex flex-col rounded-[10px] px-10 mr-8 md:hidden text-[16px] font-cinzel gap-4 p-4 absolute right-0 top-16">
             <Link to="/">
               <li
                 className={`cursor-pointer ${
