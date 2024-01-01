@@ -12,7 +12,7 @@ import mail from "../assets/mail.svg";
 const Footer = () => {
   return (
     <div className="bg-[#202020] py-28">
-      <div className="w-[80%] mx-auto flex justify-around">
+      <div className="w-[85%] mx-auto flex flex-col gap-10 md:gap-0 md:flex-row justify-around">
         <div className="space-y-4">
           <img src={newlogo} className="w-[150px]" alt="" />
           <p className="text-[13px] md:text-[17px] w-[70vw] md:w-[30vw]  text-[#8F8F8F]">
@@ -26,11 +26,11 @@ const Footer = () => {
             <img src={tw} alt="" />
           </div>
         </div>
-        <div className="hidden md:block ">
+        <div className=" ">
           <h2 className="text-[26px] mb-4 text-white font-semibold">
             Get In Touch
           </h2>
-          <div className="flex gap-10">
+          <div className="flex flex-col md:flex-row gap-10">
             <section className="space-y-2">
               <div className="flex gap-2 items-center">
                 <img src={location} className="inline w-[30px]" alt="" />
