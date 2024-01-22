@@ -1,4 +1,5 @@
 import hero from "../assets/herocinematicCompressed.jpg";
+import { motion } from "framer-motion";
 
 const Hero2 = () => {
   return (
@@ -13,16 +14,28 @@ const Hero2 = () => {
       <div className="z-50">
         <div className="absolute h-screen w-screen flex justify-center items-center">
           <div className="-mt-20 text-center font-kalnia">
-            <h2 className="max-w-[90vw] text-[16px] sm:text-[18px] md:text-[30px]">
+            <motion.h2
+              className="max-w-[90vw] text-[16px] sm:text-[18px] md:text-[30px]"
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            >
               You tell me the story you know by heart <br />
               <span className="italic">
                 - I'll turn it into a film you never forget.
               </span>
-            </h2>
-            <h3 className="mx-auto mt-5 text-[14px] sm:text-[13px] md:text-[16px] w-[85vw] md:w-[500px]">
+            </motion.h2>
+            <motion.h3
+              className="mx-auto mt-5 text-[14px] sm:text-[13px] md:text-[16px] w-[85vw] md:w-[500px]"
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            >
               Videographer and photographer documenting adventurous weddings and
               real love stories in cinematic style
-            </h3>
+            </motion.h3>
           </div>
         </div>
       </div>
