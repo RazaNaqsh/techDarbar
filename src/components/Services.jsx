@@ -12,7 +12,7 @@ const Services = () => {
           className="font-cinzel text-[30px] md:text-[44px] font-semibold text-center"
           initial={{ opacity: 0, y: -70 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
+          transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
           Filming Services
@@ -22,7 +22,7 @@ const Services = () => {
           className=" text-justify md:text-center text-[14px] md:text-[17px] w-[80vw] md:w-[45vw] mx-auto text-[#8F8F8F]"
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
+          transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
           I provide a range of creative services including video editing,

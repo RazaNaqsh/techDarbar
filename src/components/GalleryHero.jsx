@@ -1,4 +1,6 @@
+import { motion } from "framer-motion";
 import hero from "../assets/galleryHero.jpg";
+
 const GalleryHero = () => {
   return (
     <div className="relative h-[100vh]  w-[100vw]">
@@ -12,13 +14,25 @@ const GalleryHero = () => {
       <div className="z-50">
         <div className="absolute h-screen w-screen flex justify-center items-center">
           <div className="-mt-20 text-center text-white font-kalnia">
-            <h2 className="max-w-[90vw] mx-auto text-[16px] sm:text-[20px] md:text-[32px] ">
+            <motion.h2
+              className="max-w-[90vw] mx-auto text-[16px] sm:text-[20px] md:text-[32px] "
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            >
               What if your wedding film wasn't just a <br />
               collection of snippets from the day
-            </h2>
-            <h3 className="mx-auto mt-5 text-[13px] sm:text-[16px] md:text-[20px] w-[80vw] md:w-[700px] italic ">
+            </motion.h2>
+            <motion.h3
+              className="mx-auto mt-5 text-[13px] sm:text-[16px] md:text-[20px] w-[80vw] md:w-[700px] italic "
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            >
               BUT AN ENCAPSULATION OF YOUR JOURNEY AS A COUPLE
-            </h3>
+            </motion.h3>
           </div>
         </div>
       </div>
