@@ -50,13 +50,13 @@ const Navbar = () => {
         <div className="hidden md:flex">
           {" "}
           {/* Displayed on desktop */}
-          <ul className="font-cinzel flex text-[19px] md:gap-6 big:gap-24">
+          <ul className="font-cinzel flex text-[19px]  md:gap-6 big:gap-24">
             <Link to="/" className="" onClick={() => handleTabClick("home")}>
               <li
-                className={`cursor-pointer ${
+                className={`cursor-pointer transition-all ease-out hover:text-pink-200 hover:text-[20px] ${
                   activeTab === "home"
-                    ? "text-white font-medium"
-                    : "text-gray-200"
+                    ? "text-white font-semibold"
+                    : "text-gray-300"
                 }`}
               >
                 Home
@@ -68,9 +68,9 @@ const Navbar = () => {
               onClick={() => handleTabClick("gallery")}
             >
               <li
-                className={`cursor-pointer ${
+                className={`cursor-pointer transition-all ease-out hover:text-pink-200 hover:text-[20px] ${
                   activeTab === "gallery"
-                    ? "text-white font-medium"
+                    ? "text-white font-semibold"
                     : "text-gray-200"
                 }`}
               >
@@ -83,9 +83,9 @@ const Navbar = () => {
               onClick={() => handleTabClick("contact")}
             >
               <li
-                className={`cursor-pointer ${
+                className={`cursor-pointer transition-all ease-out hover:text-pink-200 hover:text-[20px] ${
                   activeTab === "contact"
-                    ? "text-white font-medium"
+                    ? "text-white font-semibold"
                     : "text-gray-200"
                 }`}
               >
